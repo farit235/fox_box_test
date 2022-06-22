@@ -161,7 +161,7 @@ body {
   line-height: 22px;
 }
 
-@media screen and (min-device-width: 766px) and (max-device-width: 1024px) {
+@media (min-width: 766px) and (max-width: 1024px) {
   .card-package {
     flex-wrap: wrap;
   }
@@ -170,7 +170,7 @@ body {
   }
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media (min-width: 0px) and (max-width: 767px) {
   .card-package {
     flex-direction: column;
   }
