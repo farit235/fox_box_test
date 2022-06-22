@@ -15,7 +15,7 @@
   "scripts": {
     "development": "webpack --mode development",
     "dev": "cross-env NODE_ENV=development webpack serve --config webpack.config.js",
-    "build": "NODE_ENV=development webpack --config webpack.config.js",
+    "build": "react-scripts build",
     "start": "webpack-dev-server --mode development --open"
   },
   "eslintConfig": {
